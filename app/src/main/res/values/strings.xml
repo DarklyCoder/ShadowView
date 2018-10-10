@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShadowView</string>
+
+
+    <string-array name="side">
+        <item>ALL</item>
+        <item>LEFT</item>
+        <item>TOP</item>
+        <item>RIGHT</item>
+        <item>BOTTOM</item>
+    </string-array>
+
+    <string-array name="shape">
+        <item>SHAPE_RECTANGLE</item>
+        <item>SHAPE_OVAL</item>
+        <item>SHAPE_ROUND</item>
+    </string-array>
+
+</resources>
