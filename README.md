@@ -2,14 +2,14 @@
 
 自定义阴影组件
 
-支持 `API >= 16`，理论支持`API 16`以下，未经测试
-
 ### 效果图
 
 <img src="art/1.png" width="25%"/>
 <img src="art/2.png" width="25%"/>
 
 ### 使用
+
+`implementation 'com.darklycoder.lib:ShadowView:1.0.0'`
 
 在需要添加阴影的组件上添加ShadowView
 
