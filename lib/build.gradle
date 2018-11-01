@@ -1,5 +1,15 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.novoda.bintray-release'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.8.1'
+    }
+}
 
 android {
     compileSdkVersion 28
@@ -18,10 +28,24 @@ android {
         }
     }
 
+    lintOptions {
+        abortOnError false
+        disable 'MissingTranslation', 'ExtraTranslation'
+    }
+
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+publish {
+    userOrg = 'darklycoder'
+    groupId = 'com.darklycoder.lib'
+    artifactId = 'ShadowView'
+    publishVersion = '1.0.0'
+    desc = 'ShadowView'
+    website = 'https://github.com/DarklyCoder/ShadowView.git'
 }

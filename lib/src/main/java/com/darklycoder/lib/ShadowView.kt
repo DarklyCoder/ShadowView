@@ -11,9 +11,7 @@ import android.view.View
 import android.widget.FrameLayout
 
 /**
- * @author DarklyCoder
- * @Description 阴影view
- * @date 2018/10/10
+ * 阴影view 2018/10/10
  */
 class ShadowView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : FrameLayout(context, attrs, defStyleAttr) {
 
