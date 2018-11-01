@@ -45,3 +45,7 @@
 | radius | shadowShape为圆角矩形(round)时表示圆角大小，其它情况无意义 |
 | shadowShape | 阴影形状，支持rectangle/oval/round ，默认为rectangle|
 | shadowSide | 阴影显示方向，支持all/left/top/right/bottom，默认为all |
+
+### 参考
+
+* [ShadowLayout](https://github.com/lijiankun24/ShadowLayout)
